@@ -9,7 +9,7 @@ export default function Feedback() {
           <div className="flex items-center">
             <div className="w-1/5">
               <img
-                src="./src/assets/images/user1.png"
+                src="./assets/images/user1.png"
                 className="w-14 h-14 rounded-full"
               />
             </div>
@@ -32,7 +32,7 @@ export default function Feedback() {
           <div className="flex items-center">
             <div className="w-1/5">
               <img
-                src="./src/assets/images/user2.png"
+                src="./assets/images/user2.png"
                 className="w-14 h-14 rounded-full"
               />
             </div>
@@ -55,7 +55,7 @@ export default function Feedback() {
           <div className="flex items-center">
             <div className="w-1/5">
               <img
-                src="./src/assets/images/user3.png"
+                src="./assets/images/user3.png"
                 className="w-14 h-14 rounded-full"
               />
             </div>

@@ -40,7 +40,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 flex flex-col justify-end items-center relative">
           <div className="absolute w-64 h-64 md:w-96 md:h-96 bg-white rounded-full -z-10"></div>
           <img
-            src="./src/assets/images/girl_banner.png"
+            src="./assets/images/girl_banner.png"
             alt="girl-banner"
             className="w-3/4 z-10"
           />
