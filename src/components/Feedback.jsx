@@ -1,3 +1,7 @@
+import user1 from "../images/user1.png";
+import user2 from "../images/user2.png";
+import user3 from "../images/user3.png";
+
 export default function Feedback() {
   return (
     <article className="px-4 py-12" id="id4">
@@ -8,10 +12,7 @@ export default function Feedback() {
         <div className="rounded-lg bg-white shadow-md p-6 w-full md:w-1/3 text-sm">
           <div className="flex items-center">
             <div className="w-1/5">
-              <img
-                src="./assets/images/user1.png"
-                className="w-14 h-14 rounded-full"
-              />
+              <img src={user1} className="w-14 h-14 rounded-full" />
             </div>
             <div className="pl-4">
               <h1 className="font-bold text-lg text-light-400">
@@ -31,10 +32,7 @@ export default function Feedback() {
         <div className="rounded-lg bg-white shadow-md border border-gray-500 p-6 w-full md:w-1/3 text-sm">
           <div className="flex items-center">
             <div className="w-1/5">
-              <img
-                src="./assets/images/user2.png"
-                className="w-14 h-14 rounded-full"
-              />
+              <img src={user2} className="w-14 h-14 rounded-full" />
             </div>
             <div className="pl-4">
               <h1 className="font-bold text-lg text-light-400">
@@ -54,10 +52,7 @@ export default function Feedback() {
         <div className="rounded-lg bg-white shadow-md p-6 w-full md:w-1/3 text-sm">
           <div className="flex items-center">
             <div className="w-1/5">
-              <img
-                src="./assets/images/user3.png"
-                className="w-14 h-14 rounded-full"
-              />
+              <img src={user3} className="w-14 h-14 rounded-full" />
             </div>
             <div className="pl-4">
               <h1 className="font-bold text-lg text-light-400">

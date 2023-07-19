@@ -4,6 +4,8 @@ import {
   BiSolidMoon,
 } from "react-icons/bi";
 
+import user1 from "../images/girl_banner.png";
+
 export default function Home() {
   return (
     <section className="p-4 md:px-32 py-6 bg-light-100 relative -z-20" id="id1">
@@ -39,11 +41,7 @@ export default function Home() {
         </div>
         <div className="w-full md:w-1/2 flex flex-col justify-end items-center relative">
           <div className="absolute w-64 h-64 md:w-96 md:h-96 bg-white rounded-full -z-10"></div>
-          <img
-            src="./assets/images/girl_banner.png"
-            alt="girl-banner"
-            className="w-3/4 z-10"
-          />
+          <img src={user1} alt="girl-banner" className="w-3/4 z-10" />
         </div>
       </main>
     </section>

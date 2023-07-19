@@ -1,14 +1,16 @@
+import user2 from "../images/pink-girl.png";
+
 export default function About() {
   return (
     <article className="flex flex-col md:flex-row" id="id3">
       <aside className="bg-light-500 w-full md:w-2/5 pl-4 md:pl-32 pt-4 md:pt-12 flex items-end relative">
         <img
-          src="./assets/images/pink-girl.png"
+          src={user2}
           alt="girl-banner"
           className="w-3/4 md:w-full z-10 grayscale opacity-50"
         />
         <img
-          src="./assets/images/pink-girl.png"
+          src={user2}
           alt="girl-banner"
           className="w-3/4 ml-10 z-10 absolute"
         />
